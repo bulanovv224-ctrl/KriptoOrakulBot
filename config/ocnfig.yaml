@@ -1,0 +1,9 @@
+bot:
+  token: "ВАШ_ТОКЕН_ТЕЛЕГРАМ"
+  owner_id: 123456789  # ID Владислава
+
+settings:
+  debug: true
+  language: "ru"
+  logging: true
+Create config.yaml
