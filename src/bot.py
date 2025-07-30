@@ -19,6 +19,8 @@ async def start_command(message: Message):
     await message.answer("🔹 Добро пожаловать в KriptoOrakulBot!\nБот активен и готов к работе.")
 
 # Точка запуска
-if __name__ == "__main__":
+def run_bot():
     print("Бот запускается...")
     executor.start_polling(dp, skip_updates=True)
+
+# НЕ запускать напрямую, теперь запуск идёт через main.py
